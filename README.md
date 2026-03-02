@@ -4,6 +4,8 @@ tippitytappity is a program to practice typing
 
 
 ## Data model
+# - is private, + is public
+# "<|--" signals inheritiance
 
 ```mermaid
 classDiagram
