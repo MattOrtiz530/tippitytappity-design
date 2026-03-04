@@ -41,5 +41,18 @@ class accuracy{
 
 }
 
+class users{
+  - user_id: int
+  - users vector~user~
+  + get_user(users vector~user~, user_id:int) int
+}
+
+class history{
+  - score: int
+  - tests vector~get_accuracy()~
+
+  +get_test_history(tests vector~get_accuracy()~) int
+}
+
 
 ```
