@@ -51,7 +51,7 @@ class history{
   - score: int
   - tests vector~get_accuracy()~
 
-  +get_test_history(tests vector~get_accuracy()~) int
+  +get_test_history(tests) int
 }
 
 
