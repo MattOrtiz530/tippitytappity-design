@@ -28,6 +28,18 @@ classDiagram
         + get_random_phrase() Phrase
         + load_default_phrases()
   }
+class type_speed{
+  - speed: int
+  +get_speed() int
+}
+
+class accuracy{
+  - words: int
+  - words_correct int
+  - accuracy int
+  +get_accuracy() int
+
+}
 
 
 ```
